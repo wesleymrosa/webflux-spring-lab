@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS consultas (
+    id SERIAL PRIMARY KEY,
+    paciente VARCHAR(100) NOT NULL,
+    medico VARCHAR(100) NOT NULL,
+    data_hora TIMESTAMP NOT NULL,
+    confirmada BOOLEAN DEFAULT FALSE
+);

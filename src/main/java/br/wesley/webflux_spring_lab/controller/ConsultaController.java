@@ -1,8 +1,8 @@
-package br.wesley.webflux.controller;
+package br.wesley.webflux_spring_lab.controller;
 
-import br.wesley.webflux.dto.ConsultaDTO;
-import br.wesley.webflux.dto.ConsultaResponseDTO;
-import br.wesley.webflux.service.ConsultaService;
+import br.wesley.webflux_spring_lab.dto.ConsultaDTO;
+import br.wesley.webflux_spring_lab.dto.ConsultaResponseDTO;
+import br.wesley.webflux_spring_lab.service.ConsultaService;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

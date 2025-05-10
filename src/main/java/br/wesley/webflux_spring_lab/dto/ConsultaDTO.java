@@ -1,4 +1,4 @@
-package br.wesley.webflux.dto;
+package br.wesley.webflux_spring_lab.dto;
 
 import java.time.LocalDateTime;
 
@@ -6,6 +6,7 @@ public class ConsultaDTO {
     private String paciente;
     private String medico;
     private LocalDateTime dataHora;
+    private Boolean confirmada;
 
     public String getPaciente() {
         return paciente;
@@ -29,5 +30,13 @@ public class ConsultaDTO {
 
     public void setDataHora(LocalDateTime dataHora) {
         this.dataHora = dataHora;
+    }
+
+    public Boolean getConfirmada() {
+        return confirmada;
+    }
+
+    public void setConfirmada(Boolean confirmada) {
+        this.confirmada = confirmada;
     }
 }

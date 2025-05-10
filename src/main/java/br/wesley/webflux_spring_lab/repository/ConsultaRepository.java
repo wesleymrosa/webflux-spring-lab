@@ -1,6 +1,6 @@
-package br.wesley.webflux.repository;
+package br.wesley.webflux_spring_lab.repository;
 
-import br.wesley.webflux.model.Consulta;
+import br.wesley.webflux_spring_lab.model.Consulta;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;
 

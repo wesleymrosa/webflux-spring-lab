@@ -1,4 +1,4 @@
-package br.wesley.webflux.dto;
+package br.wesley.webflux_spring_lab.dto;
 
 import java.time.LocalDateTime;
 

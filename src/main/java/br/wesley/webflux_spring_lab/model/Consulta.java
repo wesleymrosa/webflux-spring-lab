@@ -1,4 +1,4 @@
-package br.wesley.webflux.model;
+package br.wesley.webflux_spring_lab.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
